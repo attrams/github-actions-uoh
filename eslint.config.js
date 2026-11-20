@@ -11,6 +11,7 @@ module.exports = [
       '.eslintrc.js',
       'node_modules/**',
       'dist/**',
+      'e2e-tests/**',
     ],
   },
   js.configs.recommended,
