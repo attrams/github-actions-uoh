@@ -1,5 +1,5 @@
 // playwright.config.js
-const { defineConfig, devices } = require('@playwright/test');
+const { defineConfig, devices } = require('@playwright/test')
 
 module.exports = defineConfig({
   testDir: './e2e-tests',
@@ -23,4 +23,4 @@ module.exports = defineConfig({
     url: 'http://localhost:8080',
     reuseExistingServer: !process.env.CI,
   },
-});
+})
